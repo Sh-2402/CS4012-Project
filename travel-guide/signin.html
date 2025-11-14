@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign in — WanderLight</title>
+    <link rel="stylesheet" href="css/styles.css" /></head>
+  <body>
+    
+    
+    <nav class="nav">
+      <div class="container nav-inner">
+        <div class="brand">
+          <span class="brand-badge"></span>
+          <a href="index.html"><span>WanderLight</span></a>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="destinations/index.html">Destinations</a>
+          <a href="contact.html">Contact</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="auth">
+          <span id="welcome" class="badge outline">Guest</span>
+          <a id="signin-link" class="btn" href="signin.html">Sign in</a>
+          <a id="signout-link" class="btn" href="signout.html" style="display:none">Sign out</a>
+        </div>
+      </div>
+    </nav>
+    
+    
+    <main>
+      <section class="section">
+        <div class="container" style="max-width:720px">
+          <h1>Sign in</h1>
+          <p class="muted">Demo only — your name is saved locally to personalise the header.</p>
+          <form data-auth="signin">
+            <div><label for="name">Name</label><input id="name" name="name" placeholder="Your name" required /></div>
+            <div><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" required /></div>
+            <div class="form-actions"><button class="btn primary" type="submit">Sign in</button><a class="btn" href="/travel-guide/index.html">Cancel</a></div>
+          </form>
+        </div>
+      </section>
+    </main>
+    
+    
+    <footer class="footer">
+      <div class="container">
+        <div>© 2025 WanderLight • Plain HTML, CSS, tiny JS.</div>
+        <div class="small">Demo only: sign-in stores your name locally in your browser.</div>
+      </div>
+    </footer>
+
+    
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
