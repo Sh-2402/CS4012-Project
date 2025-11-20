@@ -27,6 +27,7 @@ img{max-width:100%;display:block;border-radius: 14px;}
   top:0;
   z-index:50;
   background: transparent;
+  /*background: rgba(235, 232, 232, 0.87);*/
   transition: background .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
 .nav.scrolled{
@@ -38,8 +39,11 @@ img{max-width:100%;display:block;border-radius: 14px;}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:16px 0;}
 
 .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.4px}
-.brand-badge{width:28px;height:28px;border-radius:8px;background: linear-gradient(135deg,var(--accent),var(--accent-2)); box-shadow:0 0 0 6px rgba(56,189,248,.1);}
-.nav-links{display:flex;gap:18px}
+/*.brand-badge{width:28px;height:28px;border-radius:8px;background: linear-gradient(135deg,var(--accent),var(--accent-2)); box-shadow:0 0 0 6px rgba(56,189,248,.1);}*/
+.nav-links{
+  display:flex;
+  gap:20px
+}
 .nav a{padding:8px 12px;border-radius:12px;color:var(--muted)}
 .nav a:hover{background:rgba(255,255,255,.06);color:var(--text)}
 .hero{padding:72px 0 36px; position:relative;}
@@ -72,7 +76,7 @@ img{max-width:100%;display:block;border-radius: 14px;}
 .muted{color: var(--muted)}
 .card .meta{display:flex; gap: 10px; flex-wrap:wrap; font-size:12px; color: var(--muted);}
 .card .meta span{display:inline-flex;align-items:center;gap:6px;background: rgba(255,255,255,.04); padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.07)}
-.footer{margin-top: 40px; padding: 24px 0; color: var(--muted); border-top: 1px solid rgba(255,255,255,.07)}
+
 .hero-img { display: none; }
 .kicker{display:inline-flex; gap:8px; align-items:center; font-size:13px; color:#cdefff; margin-bottom:6px}
 .kicker .dot{width:6px;height:6px;border-radius:999px;background:var(--accent);box-shadow:0 0 0 6px rgba(56,189,248,.12)}
@@ -86,7 +90,7 @@ img{max-width:100%;display:block;border-radius: 14px;}
 .section .list{display:grid; gap:12px;}
 .list .item{display:flex; gap:12px; align-items:flex-start; padding:12px; background: rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); border-radius: 14px;}
 .item .dot{width:10px;height:10px;border-radius:999px;background: var(--accent)}
-.small{font-size: 13px; color: var(--muted)}
+.small{font-size: 12px; color: var(--muted)}
 /* Forms */
 form{display:grid;gap:12px;margin:12px 0}
 label{font-size:14px;color:var(--muted)}
@@ -163,3 +167,38 @@ details summary{cursor:pointer;font-weight:600}
 /* Space adjustments so sections breathe over image */
 .hero{ padding: 120px 0 36px; }
 .section{ padding: 24px 0 12px; }
+
+/*My changes for now (Gus) */
+
+.footer{
+  margin-top: 40px;
+  padding: 24px 0; 
+  color: var(--muted); 
+  border-top: 1px solid rgba(255,255,255,.07);
+}
+
+.img-content{
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+
+/*
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.column{
+  flex-basis: 25%;
+  padding: 10px;
+  margin-top: auto;
+}
+.column p{
+  margin-top: auto;
+}
+*/
