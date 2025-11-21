@@ -598,3 +598,24 @@ body.ireland-theme {
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(124,168,106,0.3);
 }
+
+
+.Dubai-theme .dest-hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+    url("https://cdn.twocontinents.com/downtown_dubai_guide_12c7f49f66.jpg");
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+=======
+/* Ireland Page Video Styling */
+.ireland-video {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.25);
+>>>>>>> f5a97770559090072cbec10687be86f4e1acdbfa
+}
