@@ -2,7 +2,7 @@
 :root{
   --bg: #0f172a;
   --bg-soft: #111827;
-  --card: #0b1020;
+  --card: hsl(226, 49%, 8%);
   --text: #e5e7eb;
   --muted: #9ca3af;
   --accent: #38bdf8;
@@ -160,8 +160,8 @@ img{
 
 .card:hover{
   transform: translateY(-3px);
-  border-color: rgba(56,189,248,.35);
-  box-shadow: 0 20px 50px rgba(56,189,248,.10);
+  border-color: #38bdf859;
+  box-shadow: 0 20px 50px #38bdf81a;
 }
 
 .card h3{
@@ -504,7 +504,7 @@ details summary{
   align-items: stretch;
   gap: 2rem;
   padding: 4rem 8%;
-  background-color: #161a2b;
+  
 }
 
 .story-image {
@@ -624,6 +624,18 @@ body.ireland-theme {
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
+
+}
+body.Dubai-theme {
+  --bg: #755b1a;
+  --bg-soft: #625411;
+  --card: #a37405;
+  --text: #f1f5e8;
+  --muted: #c2c2a8;
+  --accent: #a8a36a;
+  --accent-2: #c4c49b;
+  --ring: rgba(165, 172, 101, 0.4);
+  background: #4e513d !important;
 }
 /* Ireland Page Video Styling */
 .ireland-video {
@@ -636,3 +648,5 @@ body.ireland-theme {
   border: 1px solid rgba(255,255,255,0.25);
 
 }
+
+  
