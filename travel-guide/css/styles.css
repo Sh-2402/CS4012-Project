@@ -640,13 +640,12 @@ body.Dubai-theme {
 /* Ireland Page Video Styling */
 .ireland-video {
   width: 100%;
-  max-width: 900px;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 20px auto;
   border-radius: 16px;
   border: 1px solid rgba(255,255,255,0.25);
-
 }
 
   
