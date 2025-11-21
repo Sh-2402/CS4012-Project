@@ -607,7 +607,7 @@ body.ireland-theme {
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-=======
+}
 /* Ireland Page Video Styling */
 .ireland-video {
   width: 100%;
@@ -617,5 +617,5 @@ body.ireland-theme {
   margin: 20px auto;
   border-radius: 16px;
   border: 1px solid rgba(255,255,255,0.25);
->>>>>>> f5a97770559090072cbec10687be86f4e1acdbfa
+
 }
