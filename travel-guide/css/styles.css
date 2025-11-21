@@ -449,6 +449,23 @@ details summary{
 
 /*My changes for now (Gus) */
 
+.brazil-theme .dest-hero{
+  position: relative;
+  aspect-ratio: 16/7;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,.08);
+  overflow:hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.65)),
+    url("https://www.rodamundo.tur.br/blog/wp-content/uploads/2019/03/Ba%C3%ADa-dos-Porcos-em-Fernando-de-Noronha-rodamundo-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .footer{
   margin-top: 40px;
   padding: 24px 0;
@@ -598,6 +615,16 @@ body.ireland-theme {
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(124,168,106,0.3);
 }
+
+
+.Dubai-theme .dest-hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+    url("https://cdn.twocontinents.com/downtown_dubai_guide_12c7f49f66.jpg");
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+=======
 /* Ireland Page Video Styling */
 .ireland-video {
   width: 100%;
@@ -607,4 +634,5 @@ body.ireland-theme {
   margin: 20px auto;
   border-radius: 16px;
   border: 1px solid rgba(255,255,255,0.25);
+>>>>>>> f5a97770559090072cbec10687be86f4e1acdbfa
 }
