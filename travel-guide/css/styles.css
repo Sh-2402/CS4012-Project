@@ -71,14 +71,6 @@ img{
   letter-spacing:.4px;
 }
 
-/*.brand-badge{
-  width:28px;
-  height:28px;
-  border-radius:8px;
-  background: linear-gradient(135deg,var(--accent),var(--accent-2));
-  box-shadow:0 0 0 6px rgba(56,189,248,.1);
-}*/
-
 .nav-links{
   display:flex;
   gap:20px;
@@ -464,6 +456,20 @@ details summary{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.brazil-theme {
+  --bg: #1b241b;
+  --bg-soft: #222d22;
+  --card: #1e2a1e;
+  --text: #f1f5e8;
+  --muted: #b6c2a8;
+  --accent: #7ca86a;
+  --accent-2: #a4c49b;
+  --ring: rgba(124,168,106,.4);
+
+  /* Override full page background on Ireland page only */
+  background: #b4b100 !important;
 }
 
 .footer{
