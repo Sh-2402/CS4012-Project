@@ -12,3 +12,4 @@
   window.addEventListener('load', toggleScrolled);
   document.addEventListener('DOMContentLoaded', toggleScrolled);
 })();
+
